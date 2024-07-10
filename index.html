@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <script src="./form.js"></script>
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="./CSS/form.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<div class="container">
+<div class="form">
+    <div class="email">
+    <h1>Stay updated!</h1>
+
+    <h5>Join 60,000+ product managers receiving monthly updates on:</h5>
+
+    <img src="./assets/images/icon-list.svg" alt=""> <p>Product discovery and building what matters</p>
+    <br> <br>
+    <img src="./assets/images/icon-list.svg" alt=""> <p>Measuring to ensure updates are a success</p>
+    <br> <br>
+    <img src="./assets/images/icon-list.svg" alt=""> <p>And much more!</p>
+    <br><br>
+
+  <form id="subscriptionForm" action="./success.html">
+    <label for="Email">Email address</label>
+    <span id="error-message" class="error" style="display: none;">Valid email required</span>
+    <input type="Email" placeholder="email@company.com" name="Email" id="Email" required>
+    <button class="sub" type="submit">Subscribe to monthly newsletter</button>
+  </form>
+</div>
+
+<div class="image">
+    <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+</div> 
+
+</div>
+</div>
+
+<script src="./form.js"></script>
+</body>
+</html>

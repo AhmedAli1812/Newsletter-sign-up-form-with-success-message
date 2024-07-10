@@ -1,0 +1,93 @@
+body{
+    background-color: #36384d;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(163 138 138 / 24%);
+}
+.email{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 50px;
+
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.input-error {
+    border-color: red;
+    background-color: #ffe6e6;
+}
+
+.form .email h1{
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif;
+    color: #222642;
+}
+.form .email h5{
+    color: #222642;
+    font-family: sans-serif;
+}
+.form .email img{
+    display: inline;
+    width: 15px;
+    margin-right: 5px;
+}
+.form .email p{
+    display: inline;
+    font-size: small;
+    font-family: sans-serif;
+    color: #222642;
+}
+.form .email label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #222642;
+}
+.form .email input{
+    display: block;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.form .email .sub{
+    display: block;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    color: #f5f6f9;
+    background-color: #232742;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+}
+.form .email .sub:hover{
+    background: rgb(255,84,120);
+    background: radial-gradient(circle, rgba(255,84,120,1) 0%, rgba(254,93,91,1) 35%, rgba(255,105,62,1) 100%);
+    box-shadow: 1px 10px 8px rgb(239 79 79 / 24%);
+    transition: 3s;
+}
+
+.image img{
+    max-width: 100%;
+    border-radius: 8px;
+    height: 500px;
+    margin: 10px;
+}
+

@@ -1,0 +1,60 @@
+body{
+    background-color: #36384d;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Success{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(163 138 138 / 24%);
+    width: 350px;
+}
+.Success img{
+    margin-top: 40px ;
+    margin-left: 40px;
+    width: 40px;
+}
+.Success h1{
+    display: block;
+    /* text-align: center; */
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #222642;
+}
+.Success p{
+    display: block;
+    /* text-align: center; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color: rgba(34,38,66,255);
+    font-family: sans-serif;
+}
+.Success input{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 270px;
+    height: 35px;
+    color: #f5f6f9;
+    background-color: #232742;
+    border: none;
+    border-radius: 8px;
+}
+.Success input:hover{
+    background: rgb(255,84,120);
+    background: radial-gradient(circle, rgba(255,84,120,1) 0%, rgba(254,93,91,1) 35%, rgba(255,105,62,1) 100%);
+    box-shadow: 1px 10px 8px rgb(239 79 79 / 24%);
+    transition: 3s;
+}
+.Success form{
+    display: block;
+}
